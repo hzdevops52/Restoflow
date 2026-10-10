@@ -1,0 +1,44 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+frontend/dist/
+dist/
+**/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage and temporary files
+coverage/
+**/coverage/
+tmp/
+temp/
+*.tmp
+
+# Backups and database dumps
+backups/
+**/*.bak
+**/*.bak-*
+**/*backup*/
+restoflow-*-backup-*/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
