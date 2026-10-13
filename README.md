@@ -102,3 +102,5 @@ The pipeline:
 ## License
 
 See the repository's `LICENSE` file for licensing terms.
+
+## deployed on github pages
